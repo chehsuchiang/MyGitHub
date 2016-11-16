@@ -28,5 +28,12 @@ namespace GitMvc.Controllers
 
             return View();
         }
+
+        public ActionResult Skill()
+        {
+            ViewBag.Message = "Your skill page.";
+
+            return View();
+        }
     }
 }
